@@ -1,6 +1,7 @@
 ---
 name: orchestrate-omp
 description: "Coordinate OMP subagents on substantial work. Use when parallel discovery, specialist review, or clearly partitioned implementation will shorten or strengthen the result; skip trivial tasks."
+disable-model-invocation: true
 ---
 
 # Orchestrate on OMP

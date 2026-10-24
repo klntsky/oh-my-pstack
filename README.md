@@ -61,7 +61,7 @@ agents. It is separate from pstack because native Pi does not include subagents.
 Install from GitHub:
 
 ```bash
-omp install https://github.com/shrimpwtf/oh-my-pstack
+omp install https://github.com/klntsky/oh-my-pstack
 ```
 
 For local development, load the checkout directly:
@@ -112,6 +112,11 @@ workflow. Claude Code reads `.claude-plugin/plugin.json`; Codex reads
 host's Agent Skills configuration at the repository's `skills/` directory.
 
 ## Quick start
+
+This fork keeps every bundled skill explicit-only with
+`disable-model-invocation: true`. In OMP, invoke `/skill:poteto-mode <task>` or
+another `/skill:<name>` command. Skills stay available to an invoked workflow
+without appearing in the model's automatically advertised skill list.
 
 Start substantial work with `poteto-mode`. Use `pstack-pi` when a workflow needs
 delegation or host-specific lifecycle behavior.

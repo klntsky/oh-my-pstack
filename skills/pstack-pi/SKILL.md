@@ -1,6 +1,7 @@
 ---
 name: pstack-pi
 description: "Pi runtime adapter for poteto-mode. Maps canonical pstack roles and lifecycle protocols to Pi-compatible task agents, batching, isolation, follow-ups, and durable result resources."
+disable-model-invocation: true
 ---
 
 # pstack on Pi
